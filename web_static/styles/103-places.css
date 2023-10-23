@@ -1,15 +1,15 @@
 @media only screen and (max-width: 600px) {
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
+/* For small devices */
 @media only screen and (min-width: 600px) {
 
 }
-/* Medium devices (landscape tablets, 768px and up) */
+/* For medium devices */
 @media only screen and (min-width: 768px) {
 
 }
-/* Large devices (laptops/desktops, 992px and up) */
+/* This is for large devices */
 @media only screen and (min-width: 992px) {
 
 }
@@ -46,11 +46,9 @@
   text-align: center;
   flex-grow: 1;
 }
-/* ************************************************** */
-/* article information */
-/* ************************************************** */
+/* Article information */
 
-/* circle with price */
+/* price circle */
 .article_places_header {
   width: 100%;
   display: flex;
@@ -70,9 +68,7 @@
     margin-bottom: 5px;
     transition: 0.2s ease-in-out;
 }
-/* ******************************************/
-/* ARIA
-/* ******************************************/
+
 .price_by_night:hover,
 .price_by_night:focus {
   background-color: antiquewhite;
@@ -87,9 +83,6 @@ article:focus {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   transition: 0.2s ease-in-out;
 }
-/* ******************************************/
-/* information box with icons */
-/* ******************************************/
 
 .information {
   width: 100%;
@@ -108,8 +101,7 @@ article:focus {
   padding: 0;
 }
 
-/***********/
-/* icons   */
+/* Representation of icons  */
 
 .max_guest {
   background-image: url(../images/icon_group.png);
@@ -134,9 +126,6 @@ article:focus {
   text-align:center;
 }
 
-/*******************************************/
-/* more information */
-/*******************************************/
 .places .amenities,
 .places .reviews {
   margin-top: 40px;
@@ -164,9 +153,7 @@ article:focus {
 .places .reviews p {
   font-size: 12px;
 }
-/*******************************************/
-/* amenities icons */
-/*******************************************/
+
 .places .amenities ul li{
   display: flex;
   flex-direction: row;

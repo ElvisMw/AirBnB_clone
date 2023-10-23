@@ -4,11 +4,11 @@
 @media only screen and (max-width: 600px) {
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
+
 @media only screen and (min-width: 600px) {
 
 }
-/* Medium devices (landscape tablets, 768px and up) */
+
 @media only screen and (min-width: 768px) {
   .filters {
     height: 70px;
@@ -42,8 +42,7 @@
   .amenities {
     height: 100%;
     width: 25%;
-    /* display: inline-block;
-    vertical-align: left; */
+ 
     justify-content: center;
     flex-direction: column;
     position: relative;
@@ -65,7 +64,7 @@
     font-size: 14px;
     margin: auto 0 auto 30px;
   }
-/* Focus for ARIA accesibility */
+
 .locations:focus,
 .amenities:focus {
   background-color: antiquewhite;
@@ -75,9 +74,8 @@ article:focus {
   background-color: antiquewhite;
 }
 
-  /* ================================================================= */
-  /* dropdown menu */
-  /* ================================================================= */
+
+  /* For the Dropdown-Menu */
 
   .popover {
     border-radius: 4px;
@@ -104,7 +102,6 @@ article:focus {
     margin: 5px auto 5px auto;
   }
 
-  /* drop down on hover */
 
   .locations:hover,
   .amenities:hover {
@@ -122,7 +119,7 @@ article:focus {
   }
 
 }
-/* Large devices (laptops/desktops, 992px and up) */
+
 @media only screen and (min-width: 992px) {
 
 }

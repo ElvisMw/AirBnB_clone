@@ -33,11 +33,6 @@ article {
   display: flex;
   flex-wrap: wrap;
 }
-/* ************************************************** */
-/* article information */
-/* ************************************************** */
-
-/* circle with price */
 .article_places_header {
   width: 100%;
   display: flex;
@@ -58,10 +53,6 @@ article {
     margin-bottom: 5px;
 }
 
-/* ******************************************/
-/* information box with icons */
-/* ******************************************/
-
 .information {
   width: 100%;
   height: 80px;
@@ -78,8 +69,6 @@ article {
   margin: 0;
   padding: 0;
 }
-/***********/
-/* icons   */
 
 .max_guest {
   background-image: url(../images/icon_group.png);
@@ -103,10 +92,6 @@ article {
   background-position-x: center;
   text-align:center;
 }
-
-/*******************************************/
-/* more information */
-/*******************************************/
 
 .places .amenities,
 .places .reviews {
@@ -135,9 +120,7 @@ article {
 .places .reviews p {
   font-size: 12px;
 }
-/*******************************************/
-/* amenities icons */
-/*******************************************/
+
 .places .amenities ul li{
   display: flex;
   flex-direction: row;
